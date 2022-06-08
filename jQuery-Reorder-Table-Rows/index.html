@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Orderable Plugin Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<link href="css/jquery.orderable.css" rel="stylesheet" type="text/css">
+<style>
+body { background-color:#fafafa;}
+.container { margin:150px auto;}
+</style>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/table/jQuery-Plugin-To-Reorder-Table-Rows-Via-Drag-Drop-Orderable.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+<h1>jQuery Orderable Plugin Demo</h1>
+<table id="myOrderableTable" class="table table-inverse table-bordered">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Company</th>
+				<th>Phone</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>H4J 9H8</td>
+				<td>Port Coquitlam</td>
+				<td>Sit Amet Faucibus PC</td>
+				<td>(959) 238-1374</td>
+			</tr>
+			<tr>
+				<td>H4J 1W8</td>
+				<td>Gressoney-Saint-Jean</td>
+				<td>Ultrices Inc.</td>
+				<td>(496) 384-0307</td>
+			</tr>
+			<tr>
+				<td>H4J 1F3</td>
+				<td>Tourcoing</td>
+				<td>Libero Mauris Aliquam LLP</td>
+				<td>(118) 149-9175</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>A5K 1C2</td>
+				<td>Konya</td>
+				<td>Faucibus LLC</td>
+				<td>(985) 628-9126</td>
+			</tr>
+			<tr>
+				<td>A5K 9S0</td>
+				<td>Sacramento</td>
+				<td>Et Arcu Company</td>
+				<td>(437) 210-9092</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>L5C 8C7</td>
+				<td>Erie</td>
+				<td>Diam Industries</td>
+				<td>(757) 927-2901</td>
+			</tr>
+			<tr>
+				<td>L5C 3U9</td>
+				<td>Anchorage</td>
+				<td>Pede Corporation</td>
+				<td>(851) 712-5513</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>P9E 4N3</td>
+				<td>LaSalle</td>
+				<td>Ac Orci Institute</td>
+				<td>(450) 940-2508</td>
+			</tr>
+			<tr>
+				<td>P9E 7E7</td>
+				<td>Barnstaple</td>
+				<td>Vestibulum Neque Sed LLP</td>
+				<td>(327) 739-6499</td>
+			</tr>
+			<tr>
+				<td>P9E 2F1</td>
+				<td>Concepción</td>
+				<td>Mattis Institute</td>
+				<td>(764) 131-7846</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>W1A 7C7</td>
+				<td>Ville de Maniwaki</td>
+				<td>Non Egestas PC</td>
+				<td>(390) 917-5354</td>
+			</tr>
+			<tr>
+				<td>W1A 0O9</td>
+				<td>Bathurst</td>
+				<td>Mi Inc.</td>
+				<td>(883) 707-9268</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>A1C 8B1</td>
+				<td>Donosti</td>
+				<td>Mauris Nulla Integer Inc.</td>
+				<td>(852) 812-8381</td>
+			</tr>
+		</tbody>
+	</table>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.orderable.js"></script>
+<script>
+        $("#myOrderableTable").orderable({
+            useTbodyAsUnit: true,
+			useHandlerOnTouch: true
+        });
+    </script>
+    </div>
+</body><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
